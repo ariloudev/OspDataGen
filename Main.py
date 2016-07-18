@@ -35,3 +35,5 @@ dayparts = Daypart.generate_dayparts()
 for daypart in dayparts:
     print strftime("%H:%M", daypart.start_time)
 
+for daypart in dayparts:
+    print strftime("%H:%M", daypart.start_time)
